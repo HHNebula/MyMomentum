@@ -37,7 +37,7 @@ body {
 
 .main {
     width: 100vw;
-    height: 80vh;
+    height: 50vh;
 
     display: flex;
     flex-direction: column;
@@ -45,12 +45,22 @@ body {
     justify-content: center;
 }
 
+.search {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .queto {
     width: 100vw;
-    height: 20vh;
+    height: 40vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
