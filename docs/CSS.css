@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+* {
+    font-family: 'Sono', sans-serif;
+}
+
+body {
+    background-image: url(./jeju.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0px;
+}
+
+.time {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.greeting {
+    font-size: 50px;
+}
+
+.todo {
+    font-size: 30px;
+}
+
+.author {
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.main {
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.queto {
+    width: 100vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
